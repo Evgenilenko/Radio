@@ -25,10 +25,10 @@ public class Radio {
         }
     }
 
-    public void turnDownVolume() {
+    public void turnDownVolume(int currentVolume) {
         if (currentVolume > 0) {
             currentVolume--;
-        } else currentStation = 0;
+        } else currentVolume = 0;
     }
 
     public int getCurrentStation() {
