@@ -1,6 +1,6 @@
 public class Radio {
-    private int currentStation;
-    private int currentVolume;
+    public int currentStation;
+    public int currentVolume;
 
     public void next() {
         if (currentStation < 9) {
